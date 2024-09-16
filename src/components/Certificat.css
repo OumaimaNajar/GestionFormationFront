@@ -1,0 +1,13 @@
+@media print {
+    body {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+  
+    .certificate-card {
+      background: url('../images/certif.png') no-repeat center center !important;
+      background-size: cover !important;
+    }
+  }
+
+  
