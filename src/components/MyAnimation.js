@@ -217,9 +217,9 @@ function MyAnimation() {
               <TableHeader>Formation</TableHeader>
               <TableHeader>Formateur</TableHeader>
               <TableHeader>Date</TableHeader>
-              <TableHeader>Nb.d’heures</TableHeader>
-              <TableHeader>Public Cible</TableHeader>
-              <TableHeader>Objectifs</TableHeader>
+              
+              
+              
             </tr>
           </thead>
           <tbody>
@@ -228,10 +228,8 @@ function MyAnimation() {
                 <TableCell>{formation.titre}</TableCell>
                 <TableCell>{formation.formateur}</TableCell>
                 <TableCell>{new Date(formation.date).toLocaleDateString()}</TableCell>
-                <TableCell>{formation.nbHeures}</TableCell>
-                <TableCell>{formation.publicCible}</TableCell>
-                <TableCell>{formation.objectifs !== null ? formation.objectifs : 'Objectifs non disponibles'}</TableCell>
-              </tr>
+              
+                </tr>
             )) : (
               <tr>
                 <TableCell colSpan="6">Aucune formation disponible</TableCell>
